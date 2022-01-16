@@ -3,7 +3,6 @@
 <suite name="Suite">
   <test thread-count="5" name="Test" verbose="5" parallel="classes">
     <classes>
-      
     <class name="testscenarios.TC001_Login"/>
 	<class name="testscenarios.TC002_Registration"/>
     </classes>
