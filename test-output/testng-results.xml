@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="11" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29426" started-at="2022-01-16T09:07:33 IST" finished-at="2022-01-16T09:08:02 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29426" started-at="2022-01-16T09:07:33 IST" finished-at="2022-01-16T09:08:02 IST">
+      <class name="testscenarios.TC002_Registration">
+        <test-method status="PASS" signature="testCasesetUp()[pri:0, instance:testscenarios.TC002_Registration@fe18270]" name="testCasesetUp" is-config="true" duration-ms="1" started-at="2022-01-16T09:07:33 IST" finished-at="2022-01-16T09:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCasesetUp -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testscenarios.TC002_Registration@fe18270]" name="invokeBrowser" is-config="true" duration-ms="8350" started-at="2022-01-16T09:07:33 IST" finished-at="2022-01-16T09:07:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="registrationFieldValidation()[pri:1, instance:testscenarios.TC002_Registration@fe18270]" name="registrationFieldValidation" duration-ms="2206" started-at="2022-01-16T09:07:41 IST" finished-at="2022-01-16T09:07:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationFieldValidation -->
+        <test-method status="PASS" signature="registerWithMandatoryField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testscenarios.TC002_Registration@fe18270]" name="registerWithMandatoryField" duration-ms="6606" started-at="2022-01-16T09:07:45 IST" data-provider="TestCaseData" finished-at="2022-01-16T09:07:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Credo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[credo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithMandatoryField -->
+        <test-method status="PASS" signature="registerWithMandatoryField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testscenarios.TC002_Registration@fe18270]" name="registerWithMandatoryField" duration-ms="5871" started-at="2022-01-16T09:07:51 IST" data-provider="TestCaseData" finished-at="2022-01-16T09:07:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Credo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[credo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithMandatoryField -->
+        <test-method status="PASS" signature="registerWithMandatoryField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testscenarios.TC002_Registration@fe18270]" name="registerWithMandatoryField" duration-ms="3910" started-at="2022-01-16T09:07:57 IST" data-provider="TestCaseData" finished-at="2022-01-16T09:08:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gopal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Credo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[credo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithMandatoryField -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testscenarios.TC002_Registration@fe18270]" name="closeBrowser" is-config="true" duration-ms="859" started-at="2022-01-16T09:08:01 IST" finished-at="2022-01-16T09:08:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscenarios.TC002_Registration -->
+      <class name="testscenarios.TC001_Login">
+        <test-method status="PASS" signature="reportInit()[pri:0, instance:testscenarios.TC001_Login@2fd66ad3]" name="reportInit" is-config="true" duration-ms="341" started-at="2022-01-16T09:07:32 IST" finished-at="2022-01-16T09:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInit -->
+        <test-method status="PASS" signature="testCasesetUp()[pri:0, instance:testscenarios.TC001_Login@2fd66ad3]" name="testCasesetUp" is-config="true" duration-ms="3" started-at="2022-01-16T09:07:33 IST" finished-at="2022-01-16T09:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCasesetUp -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testscenarios.TC001_Login@2fd66ad3]" name="invokeBrowser" is-config="true" duration-ms="8457" started-at="2022-01-16T09:07:33 IST" finished-at="2022-01-16T09:07:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="loginFieldValidation()[pri:1, instance:testscenarios.TC001_Login@2fd66ad3]" name="loginFieldValidation" duration-ms="1682" started-at="2022-01-16T09:07:41 IST" finished-at="2022-01-16T09:07:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFieldValidation -->
+        <test-method status="PASS" signature="loginWithValidCredential(java.lang.String,java.lang.String)[pri:2, instance:testscenarios.TC001_Login@2fd66ad3]" name="loginWithValidCredential" duration-ms="4432" started-at="2022-01-16T09:07:45 IST" data-provider="TestCaseData" finished-at="2022-01-16T09:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredential -->
+        <test-method status="PASS" signature="loginWithValidCredential(java.lang.String,java.lang.String)[pri:2, instance:testscenarios.TC001_Login@2fd66ad3]" name="loginWithValidCredential" duration-ms="3236" started-at="2022-01-16T09:07:49 IST" data-provider="TestCaseData" finished-at="2022-01-16T09:07:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mathan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredential -->
+        <test-method status="PASS" signature="loginWithValidCredential(java.lang.String,java.lang.String)[pri:2, instance:testscenarios.TC001_Login@2fd66ad3]" name="loginWithValidCredential" duration-ms="2815" started-at="2022-01-16T09:07:52 IST" data-provider="TestCaseData" finished-at="2022-01-16T09:07:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mathivathana.mp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[november1987]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredential -->
+        <test-method status="PASS" signature="loginWithInValidCredential()[pri:3, instance:testscenarios.TC001_Login@2fd66ad3]" name="loginWithInValidCredential" duration-ms="2942" started-at="2022-01-16T09:07:55 IST" finished-at="2022-01-16T09:07:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidCredential -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testscenarios.TC001_Login@2fd66ad3]" name="closeBrowser" is-config="true" duration-ms="1321" started-at="2022-01-16T09:07:58 IST" finished-at="2022-01-16T09:08:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:testscenarios.TC001_Login@2fd66ad3]" name="flushReport" is-config="true" duration-ms="515" started-at="2022-01-16T09:08:02 IST" finished-at="2022-01-16T09:08:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- testscenarios.TC001_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
